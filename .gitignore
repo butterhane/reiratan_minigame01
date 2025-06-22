@@ -71,3 +71,7 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ---WebGL用のBuildフォルダを除外から除外する ---
+!docs/Build/
+!docs/Build/**
